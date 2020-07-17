@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-body">
+        <div class="calculator">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+            <div class="buttons">
+                <button onclick="clearDisplay()" class="btn btn-danger">C</button>
+                <div class="row">
+                    <button onclick="buttonclick(7)" class="btn btn-light">7</button>
+                    <button onclick="buttonclick(8)" class="btn btn-light">8</button>
+                    <button onclick="buttonclick(9)" class="btn btn-light">9</button>
+                    <button onclick="buttonclick('/')" class="btn btn-secondary">/</button>
+
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(4)" class="btn btn-light">4</button>
+                    <button onclick="buttonclick(5)" class="btn btn-light">5</button>
+                    <button onclick="buttonclick(6)" class="btn btn-light">6</button>
+                    <button onclick="buttonclick('*')" class="btn btn-secondary">X</button>
+
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(1)" class="btn btn-light">1</button>
+                    <button onclick="buttonclick(2)" class="btn btn-light">2</button>
+                    <button onclick="buttonclick(3)" class="btn btn-light">3</button>
+                    <button onclick="buttonclick('-')" class="btn btn-secondary">-</button>
+
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick('.')" class="btn">.</button>
+                    <button onclick="buttonclick(0)" class="btn btn-light">0</button>
+                    <button onclick="buttonclick('+')" class="btn btn-secondary">+</button>
+                    <button onclick="equalClick()" class="btn btn-default">=</button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
